@@ -19,23 +19,23 @@
 
 使用：1.解析好域名； 2.运行一键安装脚本；
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/liyanglan/ws-tls_Website/master/h.sh && chmod +x h.sh && bash h.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/liyanglan/ws-tls_Website/master/w.sh && chmod +x w.sh && bash w.sh
 ```
 [新手请使用 Debian8/9 纯净系统安装]
 
 备用1：一键更换新的 UUID，同时升级 Windows 客户端 （new）
 ```
-bash h.sh -n
+bash w.sh -n
 ```
 
 备用2：一键删除服务器中储存的客户端 config.json 配置文件，防止 Website 被抓取 （rm）
 ```
-bash h.sh -r
+bash w.sh -r
 ```
 
 共享你的 V2ray 账号 （share）
 ```
-bash h.sh -s
+bash w.sh -s
 
 开启共享模式后，每周一自动更换 UUID 并推送至 Website 伪装站点首页。
 为防止被恶意抓取，该模式下不提供客户端 config.json 文件下载。
